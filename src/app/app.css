@@ -1,3 +1,21 @@
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background: #0056b3;
+  color: white;
+  padding: 10px 20px;
+  z-index: 1000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 0 0 5px 0;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 0;
+  outline: 3px solid orange;
+}
 
 .site-header {
   background: #ffffff;
@@ -23,7 +41,6 @@
   font-weight: 400;
 }
 
-/* ===== NAVIGATION ===== */
 .nav-list {
   list-style: none;
   display: flex;
@@ -48,12 +65,10 @@
   border-bottom: 2px solid #0a3d62;
 }
 
-/* ===== MAIN ===== */
 .main-content {
   min-height: calc(100vh - 160px);
 }
 
-/* ===== FOOTER ===== */
 .site-footer {
   background: #0a3d62;
   color: #ffffff;
