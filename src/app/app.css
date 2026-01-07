@@ -1,0 +1,113 @@
+
+.site-header {
+  background: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #0a3d62;
+}
+
+.logo span {
+  font-weight: 400;
+}
+
+/* ===== NAVIGATION ===== */
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #333;
+  padding-bottom: 0.25rem;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+  color: #0a3d62;
+}
+
+.nav-list a.active {
+  border-bottom: 2px solid #0a3d62;
+}
+
+/* ===== MAIN ===== */
+.main-content {
+  min-height: calc(100vh - 160px);
+}
+
+/* ===== FOOTER ===== */
+.site-footer {
+  background: #0a3d62;
+  color: #ffffff;
+  margin-top: 4rem;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-brand {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+  text-decoration: underline;
+}
+ .logo-png{
+   height: 40px;
+   width: auto;
+   display: block;
+ }
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+}
+
+.brand-name {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #0a3d62;
+}
